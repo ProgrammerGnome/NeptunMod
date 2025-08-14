@@ -1,7 +1,7 @@
 #### [The language of this respository is Hungarian.]
 ---
 # Új Neptunhoz Infinite Session Mod
-# Tampermonkey script (sajnos nem működő, kísérleti verzió).
+# Tampermonkey script (sajnos nem működő, kísérleti 2024/10/20 verzió).
 
 Ez a Tampermonkey felhasználói szkript az **új Neptun webes felületén** figyeli az autentikációs folyamatot, kimenti a **Bearer** és **Refresh** tokent, majd megpróbálja automatikusan frissíteni a munkamenetet, hogy elkerüld a kijelentkeztetést.
 
