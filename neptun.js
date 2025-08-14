@@ -58,7 +58,7 @@
 
         const xhr = new XMLHttpRequest();
         xhr.open('POST', 'https://neptun-web3.tr.pte.hu/hallgatoing/api/Account/GetNewTokens');
-        xhr.setRequestHeader('Authorization', 'Bearer ' + refreshTokenValue);
+        xhr.setRequestHeader('Authorization', 'Bearer ' + bearerToken);
         xhr.setRequestHeader('Content-Type', 'application/json');
 
         const requestBody = JSON.stringify({
